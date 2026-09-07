@@ -6,7 +6,8 @@ a quick number, or a product idea. Follow these rules without being asked.
 ## Where the numbers come from
 - The Datum data platform, through the `datum` MCP server (tools: list_products, list_questions, ask, query,
   health). Every figure you write must come from it, or you say plainly that the platform does not hold it.
-  If the server is missing, tell the person to run `./setup.sh` and set DATUM_API_KEY; do not guess numbers.
+  If the server is missing or refuses, tell the person to run `./setup.sh`, reopen Claude Code in this folder,
+  and complete the GitHub sign-in when the browser tab opens; do not guess numbers.
 - `datum-context/` (pulled by setup.sh) is the written-down half: `metrics/` are the definitions (tvl-net,
   tvl-gross, supply-apy, borrow-apy, utilization), `protocols/` the notes, `house/` the rules, `products/`
   what each product holds and its gaps, `evals/divergence-log.md` every known disagreement with other

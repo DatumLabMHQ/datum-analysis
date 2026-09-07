@@ -1,9 +1,5 @@
 {
   "mcpServers": {
-    "datum": {
-      "type": "http",
-      "url": "https://datum-api-datumlabs1.vercel.app/api/mcp",
-      "headers": { "x-api-key": "${DATUM_API_KEY}" }
-    }
+    "datum": { "type": "http", "url": "https://datum-mcp.datumlabs.workers.dev/mcp" }
   }
 }

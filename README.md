@@ -1,26 +1,22 @@
 # datum-analysis
 
 The workspace for any analysis, report or product idea on Datum's data. Clone it, open Claude Code in it, ask.
-Nothing here is personal to a machine: the rules live in `CLAUDE.md`, the definitions in `datum-context`, the
-numbers in the platform, and the only secret is an API key you hold as an environment variable.
+Nothing is personal to a machine and there are no keys: the rules live in `CLAUDE.md`, the definitions in
+`datum-context`, the numbers in the platform, and access is your membership of the DatumLabMHQ GitHub organisation.
 
-## Setup, once per person (about two minutes)
+## Setup, once per person (two minutes)
 
 1. Clone this repository and pull the definitions beside it:
    ```bash
    git clone https://github.com/DatumLabMHQ/datum-analysis && cd datum-analysis && ./setup.sh
    ```
-2. Get a platform API key from Olusegun and put it in your shell profile (`~/.zshrc`):
-   ```bash
-   export DATUM_API_KEY=...
-   ```
-   Open a new terminal window so it takes effect. The key never goes into this repository.
-3. Open Claude Code in this folder (the desktop app: open the folder as the project; the terminal: `claude`).
-   The first time, Claude asks whether to trust the project's MCP server; say yes. It is our own API at
-   `datum-api-datumlabs1.vercel.app`.
+2. Open Claude Code in this folder (desktop app: open the folder as the project; terminal: `claude`).
+   The first time, Claude asks whether to trust the project's MCP server (`datum-mcp.datumlabs.workers.dev`,
+   ours); say yes.
+3. Ask Claude to "run the datum health tool". A browser tab opens: **Continue with GitHub**, sign in, approve.
+   The tab closes and you never see it again. Only members of DatumLabMHQ get through.
 
-Check: ask Claude "run the datum health tool and list the products". It should name the last build time and
-the products (sui, rwa, morpho, aave, centrifuge, defillama).
+Check: "list the products" should name sui, rwa, morpho, aave, centrifuge and defillama with their resources.
 
 ## How to ask
 
