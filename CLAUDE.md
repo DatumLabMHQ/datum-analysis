@@ -24,6 +24,8 @@ a quick number, or a product idea. Follow these rules without being asked.
    datum-context/evals/divergence-log.md, in that file's format, for the owner to commit.
 
 ## Kinds of work
+- **"3 step" + a link or a question:** the house summary format, defined in datum-context/house/3step.md:
+  one paragraph, then two, then three, each prefix self-contained, nothing repeated, labels "Layer 1/2/3".
 - **Quick question:** ask the MCP directly; answer with value, unit, date, table.
 - **Analysis or report:** confirm the question, audience and window before pulling rows; use `query` for
   rows and `ask` for the canonical questions; write with the defi-data-research skill for anything that will
