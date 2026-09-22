@@ -1,5 +1,7 @@
 # datum-analysis
 
+> Part of [Atlas](https://github.com/DatumLabMHQ/atlas), Datum Labs' internal data infrastructure. Start there for how the parts fit together.
+
 The workspace for any analysis, report or product idea on Datum's data. Clone it, open Claude Code in it, ask.
 Nothing is personal to a machine and there are no keys: the rules live in `CLAUDE.md`, the definitions in
 `datum-context`, the numbers in the platform, and access is your membership of the DatumLabMHQ GitHub organisation.
